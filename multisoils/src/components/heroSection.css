@@ -1,0 +1,28 @@
+.main-section {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-text {
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-text {
+        margin-left: 0;
+        text-align: center;
+    }
+}
