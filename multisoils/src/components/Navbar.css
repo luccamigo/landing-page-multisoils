@@ -1,17 +1,47 @@
 .navbar {
-    background-color: #f2e0d4;
-    padding: 10px 20px;
+    background-color: #F6C79F88;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;:
     align-items: center;
+    width: 100%;
 }
 
 .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    padding: 1rem;
+    height: 7rem;
 }
 
-.menu button {
-    margin: 0 10px;
+.menu{
+    align-content: center;
+    margin-left: auto;
+}
+
+.cadastre-se{
+    background-color: white;
+    border: solid 0.3rem #F6C79F;
+    border-radius: 3rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.entrar{
+    background-color: #B08D8C;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.logo{
+    margin-left: auto;
+    position: absolute;
+}
+
+.logo img{
+    height: 7rem;
 }

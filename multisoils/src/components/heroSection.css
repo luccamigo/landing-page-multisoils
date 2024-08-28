@@ -4,15 +4,37 @@
     align-items: center;
 }
 
+.main-image {
+    width: 50%;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
 .main-image img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 100%;
+    border-radius: 1rem;
 }
 
 .main-text {
-    margin-left: 20px;
-    max-width: 400px;
+    width: 50%;
+}
+
+.acesseagr {
+    background-color: #F6C79F;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem  1rem 2.5rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.centralizer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 @media (max-width: 768px) {
@@ -24,5 +46,10 @@
     .main-text {
         margin-left: 0;
         text-align: center;
+        width: 100%;
+    }
+
+    .main-image{
+        width:100%;
     }
 }
