@@ -45,3 +45,15 @@
 .logo img{
     height: 7rem;
 }
+
+
+@media (max-width: 1000px){
+    .entrar{
+        display: none;
+    } 
+    
+    .cadastre-se{
+        display: none;
+
+    }
+}
