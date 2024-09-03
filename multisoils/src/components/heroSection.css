@@ -27,12 +27,19 @@
 
 .acesseagr {
     background-color: #F6C79F;
-    border: none;
+    border: solid 0.3rem #F6C79F;
     border-radius: 3rem;
     padding: 1rem 2.5rem  1rem 2.5rem;
     margin-right: 1rem;
     font-size: 2rem;
     margin-top: 3rem;
+    color: black;
+    text-decoration: none;
+}
+
+.acesseagr:hover{
+    background-color: #F6C79F88;
+    border: solid 0.3rem #F6C79F;
 }
 
 .centralizer{
@@ -55,6 +62,59 @@
     justify-content: center;
 }
 
+.listaDiferenciais{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 5rem;
+}
+
+.listaDiferenciais > li{
+    max-width: 25vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.listaDiferenciais > li > .iconDif{
+    width: 10vw;
+}
+
+.Responsaveis{
+    padding: 0.5rem;
+}
+
+.Responsaveis > h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.listaResponsaveis{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 5rem;
+}
+
+.listaResponsaveis > li{
+    max-width: 20vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.listaResponsaveis > li > .fotoResponsavel{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+}
+
+
 @media (max-width: 1000px) {
     .landing {
         flex-direction: column;
@@ -69,5 +129,30 @@
 
     .main-image{
         width:100%;
+    }
+
+    .listaDiferenciais{
+        flex-direction: column;
+    }
+
+    .listaDiferenciais > li{
+        max-width: 100%;
+    }
+
+    .listaDiferenciais > li > .iconDif{
+        width: 50%;
+    }
+
+    .listaResponsaveis{
+        flex-direction: column;
+    }
+
+    .listaResponsaveis > li{
+        max-width: 100%;
+    }
+
+    .listaResponsaveis > li > .fotoResponsavel{
+        width: 50%;
+        height: auto;
     }
 }

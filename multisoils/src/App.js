@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/navbar';
-import HeroSection from './components/heroSection';
+import Navbar from './components/Navbar.jsx'
+import HeroSection from './components/heroSection.jsx';
 import './App.css';
 
 function App() {

@@ -1,7 +1,7 @@
 .navbar {
     background-color: #F6C79F88;
     display: flex;
-    justify-content: space-between;:
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -26,15 +26,29 @@
     padding: 0.2rem 1rem 0.2rem 1rem;
     margin-right: 1rem;
     font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.cadastre-se:hover{
+    background-color: #F6C79F88;
 }
 
 .entrar{
     background-color: #B08D8C;
-    border: none;
+    border: solid 0.3rem #B08D8C;
     border-radius: 3rem;
     padding: 0.2rem 1rem 0.2rem 1rem;
     margin-right: 1rem;
     font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.entrar:hover{
+    background-color: #F6C79F88;
+    border: solid 0.3rem #F6C79F88;
+
 }
 
 .logo{
