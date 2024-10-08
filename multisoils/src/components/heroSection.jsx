@@ -1,7 +1,9 @@
 import React from 'react';
 import './heroSection.css';
 import image1 from '../assets/semeandoosolo2iStock.jpg'
-import placeholderimg from '../assets/vascão.jpg'
+import placeholderimg from '../assets/sem-imagem-avatar.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDatabase, faDesktop, faNewspaper } from '@fortawesome/free-solid-svg-icons';
 
 const heroSection = () => {
     return (
@@ -11,19 +13,8 @@ const heroSection = () => {
                     <img src={image1} alt="Plantando sementes" />
                 </div>
                 <div className="main-text">
-                    <h1>Lorem Ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut eu luctus dolor, at condimentum massa. Aliquam erat volutpat.
-                        Curabitur nec sapien tristique, sodales odio vitae, ornare eros.
-                        Nunc quis faucibus justo. Sed at enim a massa malesuada venenatis.
-                        Vivamus tempor ex a eros rutrum lacinia.
-                        Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                        Aenean ac suscipit ante, a euismod odio. Donec et malesuada sem,
-                        sit amet dapibus est. Nulla rhoncus nisl vel mauris pulvinar, in finibus metus iaculis.
-                        Proin euismod, est non auctor fermentum, augue quam venenatis dolor, sit amet sollicitudin tortor metus at magna.
-                        Praesent faucibus ligula neque, volutpat sodales metus maximus nec.
-                        Donec eget risus nec elit aliquet convallis in eu libero.
-                        Cras massa orci, rutrum quis dignissim vel, tempus quis velit.</p>
+                    <h1>O que é?</h1>
+                    <p>O MULTISOILS é uma plataforma inovadora criada para facilitar a classificação, análise e gerenciamento de solos, integrando dados geológicos, ambientais e de mapeamento. A plataforma foi projetada para apoiar tanto especialistas quanto técnicos em tomadas de decisões complexas relacionadas ao uso sustentável e ao manejo de solos, com aplicações diretas em áreas como agricultura, gestão de recursos naturais e urbanização. O sistema oferece uma abordagem modular, permitindo que diferentes funções e análises sejam realizadas com base em dados coletados no campo e processados diretamente na plataforma.</p>
                     <div className='centralizer'>
                         <a className='btn acesseagr' href='https://multisoils.com.br/register'>Acesse Agora!</a>
                     </div>
@@ -33,17 +24,17 @@ const heroSection = () => {
                 <h1>Diferenciais</h1>
                 <ul className='listaDiferenciais'>
                     <li>
-                        <img src={placeholderimg} className='iconDif'></img>
+                        <FontAwesomeIcon icon={faDatabase} className='iconDif' />
                         <h2>Consultas e adições a qualquer momento</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </li>
                     <li>
-                        <img src={placeholderimg} className='iconDif'></img>
+                        <FontAwesomeIcon icon={faDesktop} className='iconDif' />
                         <h2>Gerenciar projetos de  mapeamento de solos</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </li>
                     <li>
-                        <img src={placeholderimg} className='iconDif'></img>
+                        <FontAwesomeIcon icon={faNewspaper} className='iconDif' />
                         <h2>Relatórios sobre os dados enviados</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </li>

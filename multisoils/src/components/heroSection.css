@@ -79,7 +79,8 @@
 }
 
 .listaDiferenciais > li > .iconDif{
-    width: 10vw;
+    width: 10rem;
+    height: 10rem;
 }
 
 .Responsaveis{
@@ -98,7 +99,7 @@
     list-style: none;
     padding: 0;
     justify-content: center;
-    gap: 5vw;
+    gap: 10vw;
     margin-top: 5rem;
 }
 
