@@ -1,7 +1,7 @@
 import React from 'react';
 import './heroSection.css';
 import image1 from '../assets/semeandoosolo2iStock.jpg'
-import placeholderimg from '../assets/sem-imagem-avatar.png'
+import placeholderimg from '../assets/sem-imagem-avatar.png' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faDesktop, faNewspaper } from '@fortawesome/free-solid-svg-icons';
 
@@ -16,7 +16,7 @@ const heroSection = () => {
                     <h1>O que é?</h1>
                     <p>O MULTISOILS é uma plataforma inovadora criada para facilitar a classificação, análise e gerenciamento de solos, integrando dados geológicos, ambientais e de mapeamento. A plataforma foi projetada para apoiar tanto especialistas quanto técnicos em tomadas de decisões complexas relacionadas ao uso sustentável e ao manejo de solos, com aplicações diretas em áreas como agricultura, gestão de recursos naturais e urbanização. O sistema oferece uma abordagem modular, permitindo que diferentes funções e análises sejam realizadas com base em dados coletados no campo e processados diretamente na plataforma.</p>
                     <div className='centralizer'>
-                        <a className='btn acesseagr' href='https://multisoils.com.br/register'>Acesse Agora!</a>
+                        <a className='btn acesseagr' href='https://multisoils.org/register'>Acesse Agora!</a>
                     </div>
                 </div>
             </div>

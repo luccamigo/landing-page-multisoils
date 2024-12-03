@@ -8,8 +8,8 @@ const Navbar = () => {
             <nav className="navbar-container">
                 <div className="logo"><img src={image} alt="logo Multisoils" /></div>
                 <div className="menu">
-                    <a className="btn cadastre-se" href='https://multisoils.com.br/register'>Cadastre-se</a>
-                    <a className="btn entrar" href='https://multisoils.com.br/login'>Entrar</a>
+                    <a className="btn cadastre-se" href='https://multisoils.org/register'>Cadastre-se</a>
+                    <a className="btn entrar" href='https://multisoils.org/login'>Entrar</a>
                 </div>
             </nav>
         </header>
